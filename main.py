@@ -172,7 +172,7 @@ class FGK(object):
 
             node.weight = node.weight + 1
             node = node.parent
-        print("Printing tree")
+        print("Printing tree after encoding" + s)
         self.root.display()
     
     def encode(self, text):
